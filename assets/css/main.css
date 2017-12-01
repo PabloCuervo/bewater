@@ -290,7 +290,7 @@ ul li {
 }
 
 .navbar-solid {
-  background-color: rgb(153, 204, 255) !important;
+  background-color: rgb(203, 245, 255) !important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
@@ -332,7 +332,7 @@ ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .site-header .intro {
   color: #fff;

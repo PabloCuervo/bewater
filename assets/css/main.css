@@ -390,19 +390,47 @@ ul li {
   margin-bottom: 25px;
 }
 
+.crisis ul.list-arrow-right {
+     font-size: 25px; 
+}
+
 /* 
  * 6.2 Section: Facts
  */
-.facts i {
-  color: #fff;
-  font-size: 3em;
-}
-.facts h3 {
+
+.facts h1 {
+  padding-top: 110px;
   color: #fff;
   text-align: center;
   font-weight: 400;
 }
 
+/* 
+ * 6.3 Section: Objetivos
+ */
+.section-objetivos {
+    padding-top: opx;
+}
+
+.objetivos-container {
+    padding: 0px;
+}
+
+.objetivos-img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.objetivos-h1 {
+    color: #2D6484;
+    font-family: "GothamHTF";
+    text-align: center;
+}
+.objetivos-div-img {
+  background: url(../images/objetivos/objetivo1.jpg) no-repeat center center/cover;
+height: 320px;
+}
 /* 
  * 6.3 Section: Speaker
  */

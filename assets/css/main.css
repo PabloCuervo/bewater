@@ -410,10 +410,20 @@ ul li {
  */
 .section-objetivos {
     padding-top: opx;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.section-objetivos li{
+    font-size: 12px;
+    font-weight: lighter;
 }
 
 .objetivos-container {
     padding: 0px;
+}
+
+.objetivos row{
+        border-bottom: 1px solid #f5f5f5;
 }
 
 .objetivos-img {
@@ -423,13 +433,32 @@ ul li {
 }
 
 .objetivos-h1 {
-    color: #2D6484;
-    font-family: "GothamHTF";
+    font-family: "Pacifico";
     text-align: center;
 }
-.objetivos-div-img {
+
+
+.objetivos-div-img-ayudar {
+  height: 320px;
   background: url(../images/objetivos/objetivo1.jpg) no-repeat center center/cover;
+}
+
+.objetivos-div-img-educar{
+  background: url(../images/objetivos/objetivo2.jpg) no-repeat center center/cover;
 height: 320px;
+}
+.objetivos-div-img-promover{
+  background: url(../images/objetivos/objetivo3.jpg) no-repeat center center/cover;
+height: 320px;
+}
+
+.objetivos-icon {
+    text-align: center;
+}
+
+
+.objetivos img {
+    vertical-align: middle;
 }
 /* 
  * 6.3 Section: Speaker

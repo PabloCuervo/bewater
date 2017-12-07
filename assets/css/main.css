@@ -231,12 +231,9 @@ ul li {
 /*.bg-image-1::before {
   background-color: rgba(0, 0, 0, 0);
 }*/
-
 .bg-image-2 {
-  background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
-}
-.bg-image-2::before {
-  background-color: rgba(0, 0, 0, 0.7);
+  background: url(../images/solucion/solucion-bg.png) no-repeat center center/cover;
+  height: 400px;
 }
 
 @media (min-width: 768px) {
@@ -463,8 +460,19 @@ height: 320px;
 }
 
 
-.objetivos img {
-    vertical-align: middle;
+/* 
+ * 6.4 Section: Solucion
+ */
+.solucion-div-img{
+  height: 500px;
+  background: url(../images/solucion/solucion1.png) no-repeat center center/cover;
+}
+.solucion-texto {
+    margin-top: 60px;;
+}
+
+.section-solution-h1 {
+    margin-left: 30px;
 }
 /* 
  * 6.3 Section: Speaker
@@ -490,9 +498,9 @@ height: 320px;
  * 6.4 Section: Registration & Pricing
  */
 /* 
- * 6.5 Section: Contribution
+ * 6.5 Section: Solution
  */
-.contribution {
+.solucion {
   text-align: center;
   color: #fff;
 }

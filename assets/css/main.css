@@ -275,6 +275,7 @@ ul li {
   font-weight: 600;
   border-bottom: 1px solid transparent;
 }
+
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
   background-color: #fff;
   border-color: rgba(255, 255, 255, 0.5);
@@ -382,6 +383,11 @@ ul li {
 /* 
  * 6.1 Section: Crisis 
  */
+
+.section.crisis {
+  padding-top: 40px
+}
+
 .crisis .section-title {
   margin: 0 0 25px;
   font-size:  xx-large

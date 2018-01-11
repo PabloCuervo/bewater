@@ -137,6 +137,7 @@ ul li {
 
 .section {
   padding: 70px 0;
+  border-bottom:3px solid #fff;
 }
 
 .section-title {
@@ -238,8 +239,10 @@ ul li {
 
 @media (min-width: 768px) {
   .section {
-    padding: 90px 0;
+/*    padding: 90px 0;*/
+      padding: 0px 0;
   }
+
 
   .section-title {
     color: #313131;
@@ -505,6 +508,30 @@ height: 320px;
 }
 
 /* 
+ * 6.3 Section: Progreso
+ */
+.maps-container {
+    height: 0;
+	overflow: hidden;
+	padding-bottom: 40%; /* aspect ratio */
+	position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+    .maps-container {
+    	padding-bottom: 70%; /* aspect ratio */
+    }
+}
+
+.googlemap {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+/*
  * 6.4 Section: Registration & Pricing
  */
 /* 
@@ -672,11 +699,13 @@ height: 320px;
  * 7.0 Site-footer
  */
 .site-footer {
-  background-color: deepskyblue;
+  background-color: #337ab7;
   color: #fff;
   text-align: center;
   padding: 30px 0;
+  height: 155px;
 }
+
 .site-footer .site-info {
   font-weight: 400;
   margin-bottom: 10px;
@@ -689,4 +718,139 @@ height: 320px;
 }
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
+}
+
+
+/* Prueba
+================================================= */
+/* SPLIT COLUMNS - why water & how we work
+================================================= */
+
+.bg-cover {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Prueba
+================================================== */
+
+
+
+.split-col {
+  padding: 50px 0;
+}
+.split-col p {
+  text-align: left;
+}
+.split-col h5 {
+  font-weight: bold;
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+.split-col .span4, .split-col .span8 {
+  float: left;
+}
+.split-col img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 960px) {
+  .split-col .span8 {
+    padding-left: 40px;
+    padding-right: 60px;
+  }
+  .split-col.switch .span8 {
+    float: left;
+  }
+  .split-col.switch .span4 {
+    float: right;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .split-col .span4 {
+    padding-bottom: 20px;
+  }
+}
+
+.split-img {
+  position: relative;
+  height: 415px;
+  padding: 0;
+}
+.split-img .bg-split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+}
+.split-img .bg-split.left {
+  left: 0;
+}
+.split-img .bg-split.right {
+  right: 0;
+}
+.split-img .span6 {
+  height: 415px;
+  display: table;
+  text-align: center;
+  padding: 0 9%;
+}
+.split-img .span6 .inner {
+  display: table-cell; !important;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 767px) {
+  .split-img .bg-split {
+    background-position: 50% 50%;
+    height: 250px;
+    width: 100%;
+    clear: left;
+    position: relative;
+  }
+  .split-img .span6 {
+    height: auto;
+    padding: 30px;
+  }
+  .split-img .span6.omega {
+    float: left;
+  }
+}
+
+
+.span6 {
+    width: 50%;
+    float: left;
+}
+
+.omega {
+  float: right;
+  margin-right: 0;
+}
+
+.alpha {
+  float: left;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .span6 {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .section {
+        padding: 0px;
+    }
+
+    .objetivos {
+        height: 2200px;
+    }
 }

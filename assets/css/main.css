@@ -895,3 +895,17 @@ height: 320px;
         height: 2200px;
     }
 }
+
+.ignore-class {
+    font-size: 16px; !important;
+    font-weight: 300; !important;
+}
+
+.list-group-item-no-border {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+
+}
